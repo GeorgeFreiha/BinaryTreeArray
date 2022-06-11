@@ -10,8 +10,11 @@ class Main {
     newBinaryTree.insert("N7");
     newBinaryTree.insert("N8");
     newBinaryTree.insert("N9");
+    System.out.println();
 
-    newBinaryTree.preOrder(1);
+    newBinaryTree.delete("N5");
+    newBinaryTree.levelOrder();
+    
 
     
   }
