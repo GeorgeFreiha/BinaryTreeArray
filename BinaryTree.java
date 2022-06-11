@@ -28,6 +28,16 @@ public class BinaryTree{
       System.out.println("The BT is full");
     }
   }
+  //preOrder Traversal
+
+  public void preOrder(int index){
+    if(index>lastUsedIndex){
+      return;
+    }
+    System.out.print(arr[index]+ " ");
+    preOrder(index * 2);
+    preOrder(index * 2 + 1);
+  }
 
 
 }
